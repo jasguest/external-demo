@@ -1,15 +1,13 @@
-<ul >
+<div >
   {{#events}}
-    <li>
-<<<<<<< HEAD
-        <h2>Title:: {{ title }}</h2>
-        <p>Description:: {{ description }}</p>
-        
-=======
-        <h2>{{ title }}</h2>
-        <p>{{ description }}</p>
-         <p>{{ Location }}</p>
->>>>>>> new-branch-Yamuna
-    </li>
+
+  <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+  <div class="card-header">{{ title }}</div>
+  <div class="card-body">
+    <h5 class="card-title">{{ Location }}</h5>
+    <p class="card-text">{{ description }}</p>
+  </div>
+</div>
+  
   {{/events}}
-</ul>
+</div>
